@@ -29,3 +29,4 @@ ano_atual = 2026
 idade = ano_atual - ano_nascimento
 
 print(f"Sua idade é: {idade}")
+print("Oi")
