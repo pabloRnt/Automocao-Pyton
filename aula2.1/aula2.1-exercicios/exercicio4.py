@@ -10,5 +10,6 @@ n = int(input("Digite um número natural: "))
 
 divisores = [i for i in range(1,int((n/2))+1) if not(n%i)]
 divisores.append(n)
+divisores_string = list(map(lambda x: str(x), divisores))
 
-print(f"{', '.join(divisores[:-1])} e {divisores[-1]} são todos os divisores de {n}")
+print(f"{', '.join(divisores_string[:-1])} e {divisores_string[-1]} são todos os divisores de {n}")
